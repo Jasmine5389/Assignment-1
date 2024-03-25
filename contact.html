@@ -1,0 +1,130 @@
+ <!--Name - Jasmine-->
+    <!--Student Id- 8925389-->
+    <!--Assignment 2-->
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This website is about Biography of Jawaharlal Nehru">
+        <meta name="keywords" content="jawaharlal,nehru,biography,india,former,prime,minister,external,affair,minister,lok,sabha,member,head,of,interim,government">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <title>Biography of Jawaharlal Nehru</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Jawaharlal Nehru</h1>
+        </header>
+
+        <nav>
+            <ul class="menu">
+                <li id="home-link"> <a href="index.html">Home</a></li>
+                <li id="contact-link"> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main id="main-section">
+            <form name="contact" id="contact" method="post" action="contact.php">
+            
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required autofocus placeholder="Your Full Name">
+                </div>    
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email Address">
+                </div>
+                
+                <div>
+                    <label for="birthdate">Birth Date:</label>
+                    <input type="date" id="birthdate" name="birthdate">
+                </div>    
+                
+                <div>
+                    <label for="phone">Phone No.</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber">
+                </div>
+                
+                <div>    
+                    <label for="reason">Reason for Contacting:</label>
+                    <select id="reason" name="reason">
+                        <option selected>Select a Reason</option>
+                        <option value="inquiry">General Inquiry</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </div>  
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+
+                <div>
+                    <label for="robot">I am not a Robot</label>
+                    <input type="checkbox" id="not-robot" name="not-robot">
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            
+            </form>
+        </main>
+
+        <aside id="side-section">
+            <section>
+                <h3>FAQs</h3>
+                <table>
+
+                    <tbody>
+                    <tr>
+                        <th>Name</th>
+                        <td>Pandit Jawaharlal Nehru</td>
+                    </tr>
+
+                    <tr>
+                        <th>Date of Birth</th>
+                        <td>14 November, 1889</td>
+                    </tr>
+
+                    <tr>
+                        <th>Spouse</th>
+                        <td>Kamala Nehru</td>
+                    </tr>
+
+                    <tr>
+                        <th>Offices</th>
+                        <td>Minister of Defence of India, Member of Lok Sabha</td>
+                    </tr>
+
+                    <tr>
+                        <th>Cause of Death</th>
+                        <td>Heart Attack</td>
+                    </tr>
+                    </tbody>
+
+                </table>
+            </section>
+
+            <section>
+                <h3>External Links</h3>
+                <ul>
+                    <li><a href="https://www.history.com/topics/asian-history/jawaharlal-nehru" target="_blank">History of Jawaharlal Nehru</a></li>
+                    <li><a href="https://theconversation.com/jawaharlal-nehrus-vision-for-a-just-and-equitable-post-colonial-world-with-india-leading-the-way-156307" target="_blank">Conversation Of Jawaharlal</a></li>
+                    <li><a href="https://www.britannica.com/biography/Jawaharlal-Nehru/Struggle-for-Indian-independence" target="_blank">Struggle of Indian independence</a></li>
+                </ul>
+            </section>
+
+        </aside>
+
+        <footer id="clear-element">
+            <p>&copy; 2024 Jasmine</p>
+        </footer>
+    </body>
+
+    </html>
